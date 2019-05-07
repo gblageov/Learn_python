@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Isolated Problems
+				 - Intro to JS Programming				
+		 — CodeCraft
+	</title>
+
+	<meta charset="utf-8" />
+	<meta name="csrf-token" content="4gBJWe1zDcOGmhQL7zjkHG14mH2l7ZUvX8NDdMCe" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo:400,700,400italic,700italic" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&subset=latin" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.css" />
+	<link rel="stylesheet" href="https://codecraft.2c-studio.com/assets/css/app.css?v=1" />
+    <link rel="stylesheet" href="https://codecraft.2c-studio.com/assets/css/postcss.css?v=1" />
+    <style>
+    h3 { padding-bottom: 30px; background: rgba(197, 179, 179, 0.623); }
+    .col-md-6{ style="width:100%; } 
+    </style>
+
+	</head>
+<body class="">
+	<div class="top-bar">
+    <a href="/" class="logo">
+        <i class="fa fa-puzzle-piece"></i> <span class="title">CodeCraft</span>
+    </a>
+
+    <div>
+        <form action="https://codecraft.2c-studio.com/logout" method="POST">
+            <input type="hidden" name="_token" value="4gBJWe1zDcOGmhQL7zjkHG14mH2l7ZUvX8NDdMCe">
+
+            <button type="submit">
+                <i class="fa fa-sign-out fa-fw"></i> <span>Logout</span>
+            </button>
+        </form>
+    </div>
+</div><!-- /.top-bar -->
+	<div class="drawer ">
+    <div class="user-actions">
+        <a href="https://codecraft.2c-studio.com/users/96" class="user-avatar ui image circular tiny">
+            <img src="//tasks.2c-studio.com/avatars/gblagoev.jpg" alt="Георги Благоев" />
+        </a>
+
+        <div class="user-name">Георги Благоев</div><!-- /.user-name -->
+
+        <div class="user-quick-access">
+            <ul>
+                <li>
+                    <a href="https://codecraft.2c-studio.com/notifications" class="item" data-toggle="tooltip" data-title="Notifications" data-placement="bottom">
+                        <i class="fa fa-bell" aria-hidden="true"></i>
+
+                                            </a>
+                </li>
+
+                            </ul>
+        </div>
+    </div><!-- /.user-actions -->
+
+    <div class="drawer-body">
+        <ul class="nav drawer-menu">
+            <li class="">
+                <a href="https://codecraft.2c-studio.com">
+                    <i class="fa fa-dashboard fa-fw"></i>
+                    <span class="drawer-menu-link-text">Dashboard</span>
+                </a>
+            </li>
+        </ul>
+
+        
+        <div class="ui divider"></div><!-- /.ui divider -->
+
+        <ul class="nav drawer-menu">
+            <li>
+                <a href="#" class="drawer-state-toggle">
+                                            <i class="fa fa-long-arrow-left"></i>
+                        <span class="drawer-menu-link-text">Collapse</span>
+                                    </a>
+            </li>
+        </ul>
+    </div><!-- /.drawer-body -->
+</div><!-- /.drawer-main -->
+	<div class="wrapper" id="assigned-act" >
+		<div class="header">
+	<div class="header-head">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="clearfix">
+					<h1 class="page-title">
+													<i class="fa fa-code"></i>
+						
+						Isolated Problems							
+	<span class="label label label-info">
+		In Progress	</span>
+
+	
+					</h1>
+
+					<h2 class="page-subtitle">Intro to JS Programming</h2>
+				</div>
+			</div><!-- /.col-md-8 -->
+		</div><!-- /.row -->
+	</div><!-- /.header-head -->
+
+	<div class="header-bar">	<div class="row">
+		<div class="col-md-4">
+			<a href="https://codecraft.2c-studio.com/assignment/336" class="btn btn-primary btn-sm"><i class="fa fa-long-arrow-left"></i> Back to Assignment</a>
+		</div><!-- /.col-md-3 -->
+
+		
+		
+		<div class="col-md-4 pull-right text-right">
+			<form method="POST" action="https://codecraft.2c-studio.com/assignment/submit/challenge/3034" accept-charset="UTF-8"><input name="_token" type="hidden" value="4gBJWe1zDcOGmhQL7zjkHG14mH2l7ZUvX8NDdMCe">
+				<button type="submit" class="btn btn-success btn-sm"><i class="fa fa-check"></i> Submit for Review</button>
+			</form>
+		</div><!-- /.col-md-4 pull-right text-right -->
+	
+		</div><!-- /.row -->
+</div><!-- /.header-bar -->
+</div><!-- /.header -->
+
+		
+		<div class="main container-fluid">
+			
+				<assigned-act-overview :id="3034" inline-template>
+		<div class="row">
+			<div class="col-md-6" style="width:100%;">
+				<div class="panel panel-default">
+			<div class="panel-heading">
+			<div class="input-group input-group-git-path">
+				<input type="text" class="form-control form-control-autoselect" value="git@observatory.2create.io:gblagoev/intro-to-js-programming-isolated-problems.git" readonly>
+
+				<span class="input-group-btn">
+					<a class="btn btn-default" target="_blank" href="https://observatory.2create.io/gblagoev/intro-to-js-programming-isolated-problems">
+						Browse
+					</a>
+				</span>
+			</div>
+		</div><!-- /.panel-heading -->
+	
+	<div class="panel-body text-markdown">
+		<h1>Isolated Problems</h1>
+
+		<p>Clone the repository. Solve every task in separate file. </p>
+<p>Use 2 separate functions in single file for the tasks that have 2 parts.</p>
+<h3>1) Rectangle Area Calculator</h3>
+<p>Create a function <code>calculateRectangleArea</code> that accepts 2 arguments:</p>
+<ol start="0">
+<li><code>width</code></li>
+<li><code>height</code></li>
+</ol>
+<p>Return the area of the rectangle. </p>
+<h3>2) Circle Area Calculator</h3>
+<p>Create a function <code>calculateCircleArea</code> that accepts the <code>radius</code> as an argument.</p>
+<p>Return the area of the circle base on the formula <code>πr<sup>2</sup></code></p>
+<h3>3) Is Allowed to Drive</h3>
+<p>Create a function <code>isAllowedToDrive</code> that determinates whether a person is allowed to drive a car. The function should accept the following arguments:</p>
+<ol start="0">
+<li><code>age</code> (number)</li>
+<li><code>hasDrivingLicense</code> (boolean)</li>
+<li><code>hasConsumedAlcohol</code> (boolean)</li>
+</ol>
+<p>Return <code>true</code> when the person is at least 18 years old, has a driving license and has not consumed alcohol. </p>
+<h3>4) Even Numbers Printer</h3>
+<p>Createa a function that prints all even numbers between 2 and 101 in the console. </p>
+<h3>5) Paint Calculator</h3>
+<p><strong>Part 1</strong><br />
+Create a function that calculates the amount of paint required for painting a rectangular ceiling of a room. One m<sup>2</sup> requires 0.66 liters of paint. The function should accept 2 arguments(<code>width</code> and <code>length</code>) and return liters of paint required for painting. Example:
+<code>4, 3 =&gt; 7,92</code></p>
+<p><strong>Part 2</strong><br />
+Add third argument <code>height</code> and return the amount of paint needed for painting all walls of the room, and the ceiling(without the floor). Example:
+<code>4, 3, 5 =&gt; 54,12</code></p>
+<h3>6) Currency Converter</h3>
+<p><strong>Part 1</strong><br />
+Create a function that converts amount of Bulgarian levs (BGN) into euro (EUR).
+The exchange rate is <code>1.9558</code>. </p>
+<p><strong>Part 2</strong><br />
+Add second argument that allows changing of the result currency to one of the following: </p>
+<ul>
+<li><code>USD</code> (exchange rate 1.76)</li>
+<li><code>GBP</code> (exchange rate 2.03)</li>
+<li><code>CHF</code> (exchange rate 1.69)</li>
+</ul>
+<p>Represent the currencies(along with the exchange rates) with a javascript object.</p>
+<p>Make sure that other currencies do not result in errors. </p>
+<h3>7) Taxis Count Calculator</h3>
+<p><strong>Part 1</strong><br />
+Create a function that calculates the number of taxis needed for transporting given amount of people. Single taxi can transport up to 3 people. </p>
+<p>Example input and output: </p>
+<ul>
+<li><code>1</code>  =&gt; <code>1</code></li>
+<li><code>3</code>  =&gt; <code>1</code></li>
+<li><code>4</code>  =&gt; <code>2</code></li>
+<li><code>10</code> =&gt; <code>4</code></li>
+</ul>
+<p><strong>Part 2</strong><br />
+Extend the solution in part 1 so the types of taxis you can call are either &quot;big&quot; or &quot;small&quot;. The big taxis can transport up to 6 people, and the smaller ones -- up to 3 people.</p>
+<p>The new function should return an array where the first element is the number of smaller taxis, and the second element - the number of bigger taxis. </p>
+<p>Example input and output: </p>
+<ul>
+<li><code>1</code>  =&gt; <code>[1, 0]</code></li>
+<li><code>3</code>  =&gt; <code>[1, 0]</code></li>
+<li><code>4</code>  =&gt; <code>[0, 1]</code></li>
+<li><code>10</code> =&gt; <code>[0, 2]</code></li>
+</ul>
+<h3>8) Interest Calculator</h3>
+<p><strong>Part 1</strong><br />
+Create a function that calculates the interest of a deposit. The interest rate is fixed to 4.3 percent per year.</p>
+<p>Example input and output: </p>
+<ul>
+<li><code>100</code> =&gt; <code>104,3</code></li>
+<li><code>0</code> =&gt; <code>0</code></li>
+<li><code>1000</code> =&gt; <code>1043</code></li>
+</ul>
+<p><strong>Part 2</strong><br />
+Add second argument that allows caller to specify number of years for the deposit. You should calculate compound interest, so the interest from the first year should be included in the initial amount for the second year(i.e. the interest has interest).</p>
+<p>Do not use the <a href="https://en.wikipedia.org/wiki/Compound_interest#Calculation_of_compound_interest">formula</a> for that; instead, create a loop and calculate the amount for each year until you get to the last year.</p>
+<p>Example input and output: </p>
+<ul>
+<li><code>100</code> =&gt; <code>108,78</code></li>
+<li><code>0</code> =&gt; <code>0</code></li>
+<li><code>1000</code> =&gt; <code>1087,8</code></li>
+</ul>
+<h3>9) Password Strength Indicator</h3>
+<p>Create a function that returns the strength score of a password. The score should be calculated in the following way:</p>
+<ul>
+<li>for each letter: add 1 point</li>
+<li>for each digit: add 2 points</li>
+<li>for everything else: add 3 points</li>
+<li>if the password has a letter, a number, and a special character: multiply the result by 2</li>
+</ul>
+<p>Example input and output:</p>
+<ul>
+<li><code>TEST</code>    =&gt; 4</li>
+<li><code>TesT</code>    =&gt; 4</li>
+<li><code>test</code>    =&gt; 4</li>
+<li><code>test6</code>   =&gt; 6</li>
+<li><code>test@</code>   =&gt; 7</li>
+<li><code>test6@</code>  =&gt; 18</li>
+</ul>
+<p>Use the following function to check whether a particular character is a letter: </p>
+<pre><code>/**
+ * Return true when the passed argument is single word character.
+ */ 
+function isLetter(character) {
+    return /^[a-z]{1}$/i.test(character);
+}</code></pre>
+<h3>10) Multiplication table</h3>
+<p>Create a function that return a 2-dimensional array containing the multiplication table. </p>
+<p>Hint: use <code>console.table()</code> to review your results. </p>
+	</div><!-- /.panel-body -->
+</div><!-- /.panel panel-default -->
+			</div><!-- /.col-md-6 -->
+	
+			
+		</div><!-- /.row -->
+	</assigned-act-overview>
+		</div><!-- /.main -->
+
+		<alerts></alerts>
+	</div><!-- /.wrapper -->
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.min.js"></script>
+	<script type="text/javascript">
+		$('.ui.dropdown').dropdown();
+	</script>
+	<script src="https://codecraft.2c-studio.com/assets/js/ace/ace.js?v=1"></script>
+	<script src="https://codecraft.2c-studio.com/assets/js/app.js?v=1"></script>
+</body>
+</html>
