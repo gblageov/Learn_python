@@ -12,4 +12,19 @@ https://www.guru99.com/python-tutorials.html
 
 https://www.w3resource.com/python-exercises/
 
-123
+---
+
+###Extention for VSCode
+
+* Code Runner
+* CSS Peek
+* HTML CSS Support
+* HTML Snippets
+* html tag wrapper
+* IntelliSense for CSS class name in HTML
+* Live Server
+* Markdown All in One 
+* markdownlint
+* Material Theme
+* Python
+* Settings Sync
