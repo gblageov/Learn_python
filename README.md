@@ -39,3 +39,12 @@ add Exams in Exams.html
 * Material Theme
 * Python
 * Settings Sync
+
+
+---
+
+1. download wordpress
+1. checkout the theme in wp-content: git clone git@wp.2create.io:base/wordpress.git
+1. setup a database and wp-config.php
+1. in the theme, install the node packages: yarn install
+1. in the theme run the build process: yarn build
